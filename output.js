@@ -1,4 +1,4 @@
-//Sun Jul 28 2024 11:14:49 GMT+0000 (Coordinated Universal Time)
+//Wed Aug 07 2024 10:23:40 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const _0x19b0e1 = process.env.mxAccessToken,
