@@ -1,4 +1,4 @@
-//Thu May 22 2025 16:30:14 GMT+0000 (Coordinated Universal Time)
+//Fri May 23 2025 14:04:54 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 const $ = new Env('整点抽');
@@ -26,8 +26,8 @@ function YetJQm() {
 function PVo6VQ(ueyyKID = [RP8VdfO, zuGsmv3, uA9RgT8, YetJQm], Kp8uA5M, UBbTOJG = [], yABG1Ax, Wj6frz) {
   Kp8uA5M = Kp8uA5M;
   try {
-    Kp8uA5M = Object
-    UBbTOJG.push(''.__proto__.constructor.name)
+    Kp8uA5M = Object;
+    UBbTOJG.push(''.__proto__.constructor.name);
   } catch (e) {}
   pPy1Qd9: for (yABG1Ax = 0; yABG1Ax < ueyyKID["length"]; yABG1Ax++) try {
     Kp8uA5M = ueyyKID[yABG1Ax]();
@@ -38,12 +38,12 @@ function PVo6VQ(ueyyKID = [RP8VdfO, zuGsmv3, uA9RgT8, YetJQm], Kp8uA5M, UBbTOJG 
   } catch (e) {}
   return Kp8uA5M || this;
 }
-Wj6frz = PVo6VQ() || {}
-iGjLQj = Wj6frz.TextDecoder
-qug6zSM = Wj6frz.Uint8Array
-ojZ2dE = Wj6frz.Buffer
-EdGx6MU = Wj6frz["String"] || String
-BHIikz = Wj6frz.Array || Array
+Wj6frz = PVo6VQ() || {};
+iGjLQj = Wj6frz.TextDecoder;
+qug6zSM = Wj6frz.Uint8Array;
+ojZ2dE = Wj6frz.Buffer;
+EdGx6MU = Wj6frz["String"] || String;
+BHIikz = Wj6frz.Array || Array;
 function kGXgWLc(...ueyyKID) {
   return ueyyKID[ueyyKID["length"] - 0x1];
 }
@@ -86,14 +86,14 @@ const uWtMv3t = process["env"]["jd_daycj_interval"] || "2000",
   Dq6gUI = 5;
 let w2sBrnx = Object["keys"](vc01RZU)["map"](_oBEGGq => vc01RZU[_oBEGGq])["filter"](_oBEGGq => _oBEGGq);
 if (p7M42q(w2sBrnx[0x0], Zgy6Sn(0x21))) {
-  $["msg"]($["name"], "【提示】请先获取Cookie")
-  process["exit"](1)
+  $["msg"]($["name"], "【提示】请先获取Cookie");
+  process["exit"](1);
 }
 p7M42q((async () => {
   if (kGXgWLc(LPVGSP0["config"]({
     ["title"]: $["name"]
   }), await K9XyCd(), DwNNNM && LPVGSP0["getMessage"]())) {
-    await LPVGSP0["push"]()
+    await LPVGSP0["push"]();
   }
 })()["catch"](_oBEGGq => $["logErr"](_oBEGGq))["finally"](() => {
   return $["done"]();
@@ -116,7 +116,7 @@ async function K9XyCd() {
         }
       } catch {
         var X82KKo = ["⚠ 自定义运行间隔时长设置错误"];
-        console["log"](X82KKo[0x0])
+        console["log"](X82KKo[0x0]);
       }
     }
     const r6Uyy8 = kGXgWLc($["needRemoveCookieIndex"] = [], console["log"](`==========${$["name"]}变量开启状态==========`), console["log"](`间隔时长: [${p7M42q($["waitTime"], 0x3e8, vACefm = -0x2f)}秒]运行间隔时长`), console["log"](`代理开关: [${BWWUfXa["getProxyStatus"]()}]`), console["log"](`通知推送: [${DwNNNM ? '开启' : '关闭'}]`), console["log"](`账号过滤: [${gaNEcbd["join"]('\u002c\u0020')}]`), console["log"](`==========${$["name"]}变量状态结束==========`), console["log"](''), `jd_${BWWUfXa["genRandomString"](13, "0123456789abcdefghijklmnopqrstuvwxyz")}`),
@@ -130,8 +130,8 @@ async function K9XyCd() {
     if (kGXgWLc(await BWWUfXa["concTask"](KQ2lanV, w2sBrnx, Bor_BB5), $["runEnd"] = false, $["needRemoveCookieIndex"]["length"]) > 0x0) {
       w2sBrnx = w2sBrnx["filter"]((ueyyKID, UBbTOJG) => {
         return p7M42q($["needRemoveCookieIndex"]["includes"](p7M42q(UBbTOJG, 1, Zgy6Sn(0x1a))), Zgy6Sn(0x21));
-      })
-      $["needRemoveCookieIndex"] = []
+      });
+      $["needRemoveCookieIndex"] = [];
     }
     const zuGsmv3 = LPVGSP0["getMessage"]();
     if (zuGsmv3) {
@@ -187,8 +187,8 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
           DwNNNM = 0;
         if (KQ2lanV && Xd1Liq < KQ2lanV) {
           if (kGXgWLc(DwNNNM = p7M42q(KQ2lanV - Xd1Liq, 100, vACefm = 0xd), DwNNNM) > 0x1b7740 && true) {
-            console["log"](`${X82KKo}等待时间超过30分钟，退出脚本`)
-            process["exit"](0x0)
+            console["log"](`${X82KKo}等待时间超过30分钟，退出脚本`);
+            process["exit"](0x0);
           }
           if (DwNNNM > 0x0) {
             uWtMv3t = true;
@@ -196,8 +196,8 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
         }
         if (uWtMv3t) {
           if (p7M42q(CFxGgvZ, vACefm = 33)) {
-            console["log"](`距离时间还有${Math["floor"](p7M42q(DwNNNM, 0x3e8, vACefm = -47))}秒，等待中...\n`)
-            CFxGgvZ = true
+            console["log"](`距离时间还有${Math["floor"](p7M42q(DwNNNM, 0x3e8, vACefm = -47))}秒，等待中...\n`);
+            CFxGgvZ = true;
           }
           if (kGXgWLc(await $["wait"](DwNNNM), await FS0By7("comp_data_load"), p7M42q(zuGsmv3, vACefm = 33) || p7M42q(zuGsmv3["rewardProgressItems"], vACefm = 33) || zuGsmv3["rewardProgressItems"]["length"] === 0)) {
             return kGXgWLc(console["log"](`${X82KKo}等待后未获取到数据`), undefined);
@@ -258,8 +258,8 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
             var ojZ2dE = {
               ["Tg3q34"]: "log"
             };
-            msg = BWWUfXa["getErrorMsg"](iGjLQj["data"])
-            console[ojZ2dE["Tg3q34"]](`${X82KKo}失败[${iGjLQj["code"]}]：${msg}`)
+            msg = BWWUfXa["getErrorMsg"](iGjLQj["data"]);
+            console[ojZ2dE["Tg3q34"]](`${X82KKo}失败[${iGjLQj["code"]}]：${msg}`);
           }
           break;
         case "comp_data_interact":
@@ -323,10 +323,10 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
           },
           ua: RP8VdfO,
           t: true
-        }
-        YetJQm = await bFLchu["getH5st"](PVo6VQ)
-        r6Uyy8 = "https://api.m.jd.com/client.action?functionId=comp_data_load"
-        tI2NPTO = YetJQm["paramsData"]
+        };
+        YetJQm = await bFLchu["getH5st"](PVo6VQ);
+        r6Uyy8 = "https://api.m.jd.com/client.action?functionId=comp_data_load";
+        tI2NPTO = YetJQm["paramsData"];
         break;
       case "comp_data_interact":
         PVo6VQ = {
@@ -356,10 +356,10 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
           },
           ua: RP8VdfO,
           t: true
-        }
-        YetJQm = await bFLchu["getH5st"](PVo6VQ)
-        r6Uyy8 = "https://api.m.jd.com/client.action?functionId=comp_data_interact"
-        tI2NPTO = YetJQm["paramsData"]
+        };
+        YetJQm = await bFLchu["getH5st"](PVo6VQ);
+        r6Uyy8 = "https://api.m.jd.com/client.action?functionId=comp_data_interact";
+        tI2NPTO = YetJQm["paramsData"];
         break;
       default:
         console["log"](`❌ 未知请求 ${UBbTOJG}`);
@@ -405,13 +405,13 @@ async function Bor_BB5(ueyyKID, UBbTOJG) {
       }
       const DwNNNM = await BWWUfXa[uWtMv3t["W7sXQv"]](sMOzNj);
       if (p7M42q(DwNNNM["success"], Zgy6Sn(0x21))) {
-        KQ2lanV = `🚫 ${UBbTOJG} 请求失败 ➜ ${DwNNNM["error"]}`
-        Xd1Liq++
+        KQ2lanV = `🚫 ${UBbTOJG} 请求失败 ➜ ${DwNNNM["error"]}`;
+        Xd1Liq++;
         continue;
       }
       if (p7M42q(DwNNNM["data"], vACefm = 33) && true) {
-        KQ2lanV = `🚫 ${UBbTOJG} 请求失败 ➜ 无响应数据`
-        Xd1Liq++
+        KQ2lanV = `🚫 ${UBbTOJG} 请求失败 ➜ 无响应数据`;
+        Xd1Liq++;
         continue;
       }
       await igG0TH(UBbTOJG, DwNNNM["data"]);
@@ -468,8 +468,8 @@ async function WQfBjd(ueyyKID) {
     };
   } catch (e) {
     if (kGXgWLc(iGjLQj = e, Wj6frz++, Wj6frz) < UBbTOJG) {
-      console["log"](`⚠️ 第${Wj6frz}次请求失败: ${e["message"]}, 等待${p7M42q(Wj6frz, 2, Zgy6Sn(0x2e))}秒后重试...`)
-      await $["wait"](p7M42q(Wj6frz, 0x7d0, vACefm = 46))
+      console["log"](`⚠️ 第${Wj6frz}次请求失败: ${e["message"]}, 等待${p7M42q(Wj6frz, 2, Zgy6Sn(0x2e))}秒后重试...`);
+      await $["wait"](p7M42q(Wj6frz, 0x7d0, vACefm = 46));
     }
   }
   return kGXgWLc(console["log"](`❌ 达到最大重试次数(${UBbTOJG}), 最终错误: ${iGjLQj["message"]}`), {
